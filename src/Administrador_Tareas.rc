@@ -1,0 +1,350 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Administrador_Tareas.rc2""  // Recursos editados que no son de Microsoft Visual C++\r\n"
+    "#include ""afxres.rc""     // Componentes estándar\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "Archivo"
+    BEGIN
+        MENUITEM "Nueva tarea(Ejecutar...)",    ID_ARCHIVO_NUEVATAREA
+        MENUITEM SEPARATOR
+        MENUITEM "Salir del Admnistrador de Tareas", ID_ARCHIVO_SALIRDELADMNISTRADORDETAREAS
+    END
+    POPUP "Opciones"
+    BEGIN
+        MENUITEM "Siempre visible",             ID_OPCIONES_SIEMPREVISIBLE
+        MENUITEM "Minimizar al abrir",          ID_OPCIONES_MINIMIZARALABRIR
+        MENUITEM "Ocultar al estar minimizado", ID_OPCIONES_OCULTARALESTARMINIMIZADO
+        MENUITEM "Mostrar tareas de 16 bits",   ID_OPCIONES_MOSTRARTAREASDE16BITS
+    END
+    POPUP "Ver"
+    BEGIN
+        MENUITEM "Actualizar ahora",            ID_VER_ACTUALIZARAHORA
+        POPUP "Velocidad de actualización"
+        BEGIN
+            MENUITEM "Alta",                        ID_VELOCIDADDEACTUALIZACI32779
+            MENUITEM "Normal",                      ID_VELOCIDADDEACTUALIZACI32780
+            MENUITEM "Baja",                        ID_VELOCIDADDEACTUALIZACI32781
+            MENUITEM "Pausar",                      ID_VELOCIDADDEACTUALIZACI32782
+        END
+    END
+    POPUP "Ayuda"
+    BEGIN
+        MENUITEM "Temas de Ayuda del Administrador de Tareas", ID_AYUDA_TEMASDEAYUDADELADMINISTRADORDETAREAS
+        MENUITEM SEPARATOR
+        MENUITEM "Acerca del Administrador de Tareas", ID_AYUDA_ACERCADELADMINISTRADORDETAREAS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Icon_1.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de Administrador_Tareas"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,11,17,20,20
+    LTEXT           "Administrador_Tareas versión 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "Aceptar",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_ADMINISTRADOR_TAREAS_DIALOG DIALOGEX 0, 0, 268, 266
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "Administrador de Tareas"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Procesos:",IDC_STATIC,7,246,51,13,0,WS_EX_STATICEDGE
+    LTEXT           "Carga de transacciones:",IDC_STATIC,138,246,123,13,0,WS_EX_STATICEDGE
+    LTEXT           "Uso de CPU:",IDC_STATIC,61,246,74,13,0,WS_EX_STATICEDGE
+END
+
+IDD_APLICACIONES DIALOGEX 0, 0, 241, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Aplicaciones"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,227,185
+    PUSHBUTTON      "Finalizar tarea",IDC_BUTTON1,51,197,59,15
+    PUSHBUTTON      "Pasar a",IDC_BUTTON2,113,197,59,15
+    PUSHBUTTON      "Tarea nueva...",IDC_BUTTON3,175,197,59,15
+END
+
+IDD_RENDIMIENTO DIALOGEX 0, 0, 241, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rendimiento"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Uso de CPU",IDC_STATIC,7,5,64,55
+    GROUPBOX        "Historial de uso de CPU",IDC_STATIC,83,5,154,55
+    GROUPBOX        "Uso de PF",IDC_STATIC,7,61,64,55
+    GROUPBOX        "Static",IDC_STATIC,83,62,154,55
+    GROUPBOX        "Totales",IDC_STATIC,7,122,103,40
+    GROUPBOX        "Memoria física (KB)",IDC_STATIC,116,122,121,40
+    GROUPBOX        "Memoria del núcleo",IDC_STATIC,116,166,121,40
+    GROUPBOX        "Carga de transacciones (KB)",IDC_STATIC,7,165,103,40
+END
+
+IDD_PROCESO DIALOGEX 0, 0, 241, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Procesos"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,224,186
+    PUSHBUTTON      "Terminar Proceso",IDC_BUTTON1,163,196,67,16
+END
+
+IDD_RED DIALOGEX 0, 0, 241, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Funciones de red"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Conexión de area local",IDC_STATIC,7,3,234,145
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,149,233,67
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Nombre de la compañía>"
+            VALUE "FileDescription", "TODO: <Descripción del archivo>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Administrador_Tareas.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Nombre de la compañía>. Reservados todos los derechos."
+            VALUE "OriginalFilename", "Administrador_Tareas.exe"
+            VALUE "ProductName", "TODO: <Nombre del producto>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ADMINISTRADOR_TAREAS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_APLICACIONES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_RENDIMIENTO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_PROCESO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+    END
+
+    IDD_RED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&Acerca de Administrador_Tareas..."
+    IDS_STRING102           "Nombre de imagen"
+    IDS_STRING103           "PID"
+    IDS_STRING104           "Nombre de usuario"
+    IDS_STRING105           "Base Prioridad"
+    IDS_STRING106           "Tiempo de CPU"
+    IDS_STRING107           "Uso de CPU"
+    IDS_STRING108           "Uso de memoria"
+    IDS_STRING109           "Uso máximo de memoria"
+    IDS_STRING110           "Id de Sesión"
+    IDS_STRING111           "Identificadores"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING112           "Subprocesos"
+    IDS_STRING113           "Tamaño de VM"
+    IDS_STRING114           "Errores de página"
+    IDS_STRING115           "Bloque paginado"
+    IDS_STRING116           "Bloque no paginado"
+    IDS_STRING117           "Objetos de USR"
+    IDS_STRING118           "Objetos de GUI"
+    IDS_STRING119           "Lecturas de E/S"
+    IDS_STRING120           "Escrituras de E/S"
+    IDS_STRING121           "Otros de E/S"
+    IDS_STRING122           "Bytes leídos"
+    IDS_STRING123           "Bytes escritos"
+    IDS_STRING124           "Bytes otros"
+    IDS_STRING125           "Tarea"
+    IDS_STRING126           "Estado"
+END
+
+#endif    // Spanish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#include "res\Administrador_Tareas.rc2"  // Recursos editados que no son de Microsoft Visual C++
+#include "afxres.rc"     // Componentes estándar
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

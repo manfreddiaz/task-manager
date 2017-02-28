@@ -1,0 +1,82 @@
+﻿Build started 01/04/2013 10:24:24.
+     1>Project "G:\Ordenar\Victor\Programs\Curso Optativo\Final TaskMgr\Administrador_Tareas\Administrador_Tareas\Administrador_Tareas.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Administrador_Tareas.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Procesos.cpp
+         Procesos.cpp
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(85): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(92): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(123): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(127): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(128): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(129): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(130): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(131): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(132): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(134): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(135): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(136): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(137): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(138): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(893) : see declaration of '_itow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(139): warning C4996: '_i64tow': This function or variable may be unsafe. Consider using _i64tow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(938) : see declaration of '_i64tow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(140): warning C4996: '_i64tow': This function or variable may be unsafe. Consider using _i64tow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(938) : see declaration of '_i64tow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(141): warning C4996: '_i64tow': This function or variable may be unsafe. Consider using _i64tow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(938) : see declaration of '_i64tow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(142): warning C4996: '_i64tow': This function or variable may be unsafe. Consider using _i64tow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(938) : see declaration of '_i64tow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(143): warning C4996: '_i64tow': This function or variable may be unsafe. Consider using _i64tow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(938) : see declaration of '_i64tow'
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\procesos.cpp(144): warning C4996: '_i64tow': This function or variable may be unsafe. Consider using _i64tow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(938) : see declaration of '_i64tow'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Administrador_Tareas.pch" /Fo"Debug\Procesos1.obj" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Bases\Procesos.cpp
+         Procesos.cpp
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\bases\procesos.cpp(68): warning C4244: '=' : conversion from '__int64' to 'double', possible loss of data
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\bases\procesos.cpp(69): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>g:\ordenar\victor\programs\curso optativo\final taskmgr\administrador_tareas\administrador_tareas\bases\procesos.cpp(90): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\wchar.h(730) : see declaration of '_snwprintf'
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0c0a" /IDebug\ /nologo /fo"Debug\Administrador_Tareas.res" Administrador_Tareas.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Ordenar\Victor\Programs\Curso Optativo\Final TaskMgr\Administrador_Tareas\Debug\Administrador_Tareas.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\Ordenar\Victor\Programs\Curso Optativo\Final TaskMgr\Administrador_Tareas\Debug\Administrador_Tareas.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Ordenar\Victor\Programs\Curso Optativo\Final TaskMgr\Administrador_Tareas\Debug\Administrador_Tareas.lib" /MACHINE:X86 /SAFESEH Debug\Administrador_Tareas.res
+         Debug\Administrador_Tareas.obj
+         Debug\Administrador_TareasDlg.obj
+         Debug\AdvApi32.obj
+         Debug\Aplicacion.obj
+         Debug\Aplicaciones.obj
+         Debug\AppManager.obj
+         Debug\HojaPropiedades.obj
+         Debug\Kernel32.obj
+         Debug\NetworkInfo.obj
+         Debug\PerformInfo.obj
+         Debug\ProcesoBase.obj
+         Debug\Procesos.obj
+         Debug\ProcesosSys.obj
+         Debug\ProcManager.obj
+         Debug\PsapiM.obj
+         Debug\Red.obj
+         Debug\Rendimiento.obj
+         Debug\stdafx.obj
+         Debug\User32.obj
+         Debug\Procesos1.obj
+     1>Administrador_Tareas.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Administrador_Tareas.vcxproj -> G:\Ordenar\Victor\Programs\Curso Optativo\Final TaskMgr\Administrador_Tareas\Debug\Administrador_Tareas.exe
+     1>Done Building Project "G:\Ordenar\Victor\Programs\Curso Optativo\Final TaskMgr\Administrador_Tareas\Administrador_Tareas\Administrador_Tareas.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.32
